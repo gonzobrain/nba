@@ -1,97 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+	<title>Neonblood</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<meta charset="utf-8"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css">
 
-  <head>
+<!-- BOOTSTRAP -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- BOOTSTRAP -->
 
-    <title>Neonblood Animation</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Cinzel|Rufina|Saira+Condensed|Audiowide|Berkshire+Swash|Lobster+Two|Orbitron|Righteous|Russo+One" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+<div class="jumbotron jumbotron-fluid">
+  <h2>Neonblood</h2>
+	<h3>Visual Storytelling</h3>
+</div>
 
-    <!-- Custom styles for this template -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+<!--
+<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+<div class="col-sm-2">
+ <div class="panel-heading">
+    <h4 class="panel-title">
+        Commercials
+    </h4>
+ </div>
+</div>
+</a>
 
-  </head>
+<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+<div class="col-sm-2">
+ <div class="panel-heading">
+    <h4 class="panel-title">
+        Garbageddon
+    </h4>
+ </div>
+</div>
+</a>
 
-  <body id="page-top">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+<div class="col-sm-2">
+ <div class="panel-heading">
+    <h4 class="panel-title">
+        Here be Dragon Hunters
+    </h4>
+ </div>
+</div>
+</a>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">neonblood</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">work</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+<div class="col-sm-2">
+ <div class="panel-heading">
+    <h4 class="panel-title">
+        Short Stories
+    </h4>
+ </div>
+</div>
+</a>
 
-    <!-- Intro Header -->
-    <header class="masthead">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading">Neonblood</h1>
-              <p class="intro-text">visual storytelling</p>
-              <a href="#about" class="btn btn-circle js-scroll-trigger">
-                <i class="fa fa-angle-double-down animated"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+<div class="col-sm-2">
+ <div class="panel-heading">
+    <h4 class="panel-title">
+        Cryoshock
+    </h4>
+ </div>
+</div>
+</a>
 
-    <!-- About Section -->
-    <section id="about" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>WORK</h2>
-            
-          </div>
-        </div>
-      </div>
-    </section>
+<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+<div class="col-sm-2">
+ <div class="panel-heading">
+    <h4 class="panel-title">
+        Lands of Ghündur
+    </h4>
+ </div>
+</div>
+</a>
 
-    <!-- Footer -->
-    <footer>
-      <div class="container text-center">
-        <p>Copyright &copy; Neonblood Animation 2018</p>
-      </div>
-    </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <div id="collapse1" class="panel-collapse collapse">
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+	    <div class="panel-body">
+		<p>Animatics</p>
+		<video width="750" controls>
+<source src="picz/seq.mp4" type="video/mp4">
+</video>
+	    <div class="panel-body">
+		<p>Storyboard</p>
+		<img src="picz/story.jpg">
+	    </div>
+	    </div>
+	</div>
+    </div>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
+    <div class="panel panel-default">
+        <div id="collapse2" class="panel-collapse collapse">
+	    <div class="panel-body">
 
-  </body>
+		<p> Garbageddon is a sci-fi animated series project currently being produced by Neonblood Animation <p>
 
+		<img src="picz/viejoLasto.jpg">
+
+		</div></div></div>
+<div class="panel panel-default">
+        <div id="collapse3" class="panel-collapse collapse">
+	    <div class="panel-body">
+
+		 <p> Here be Dragon Hunters is a comic saga. It is a personal project by Jorge Fernández currently under development <p>
+	
+		</div></div></div>
+
+<div class="panel panel-default">
+        <div id="collapse4" class="panel-collapse collapse">
+	    <div class="panel-body">
+
+		<p>Ongoing personal project involving short comic and 2D animations<p>
+
+		</div></div></div>
+
+<div class="panel panel-default">
+        <div id="collapse5" class="panel-collapse collapse">
+	    <div class="panel-body">
+
+		<p>Cryoshock is a sci-fi videogame project currently under development by Neonblood Animation. It features action, rogue-like, and tactic mechanics.</p>
+
+		</div></div></div>
+
+<div class="panel panel-default">
+        <div id="collapse6" class="panel-collapse collapse">
+	    <div class="panel-body">
+
+		<p>Lands of Ghündur is a graphic adventure videogame currently under development by Neonblood Animation.<p>
+	
+		</div></div></div>
+
+-->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class=footer>
+
+	<p>	neonbloodanimation@gmail.com 
+		<a href="https://www.instagram.com/neonbloodanimation/"><img src="social/Instagram_3_.png"></a>
+		<a href="https://twitter.com/nb_animation/"><img src="social/Twitter_3_.png"></a>
+	</p>
+</div>
+		 
+
+</body>
 </html>
